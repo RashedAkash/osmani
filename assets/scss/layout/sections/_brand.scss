@@ -1,0 +1,12 @@
+@use "../../utils/" as *;
+.akbrand {
+    &-area{
+       
+    }
+  &-img {
+    box-shadow: 0px 0px 4px 0px rgba(129, 129, 129, 0.5);
+    background: var(--Foundation / White/Light, rgba(254, 254, 254, 1));   
+    margin: 0 30px;
+    padding: 29px 30px;
+  }
+}

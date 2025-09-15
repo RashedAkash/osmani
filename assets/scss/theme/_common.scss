@@ -49,3 +49,17 @@ img{
 .p-absolute{
 	position: absolute;
 }
+
+
+// section title
+.aksection-title{
+	font-size: 40px;
+}
+
+// color
+
+.color{
+	&-blue{
+		color: var(--tp-heading-color2);
+	}
+}
