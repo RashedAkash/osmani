@@ -1,1 +1,17 @@
 @use '../utils/' as *;
+// SCSS Loop for margin-bottom 1–150
+@for $i from 1 through 150 {
+  .mb-#{$i} {
+    margin-bottom: #{$i}px;
+  }
+}
+@for $i from 1 through 150 {
+  .pb-#{$i} {
+    padding-bottom: #{$i}px;
+  }
+}
+@for $i from 1 through 150 {
+  .pt-#{$i} {
+    padding-top: #{$i}px;
+  }
+}
