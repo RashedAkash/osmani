@@ -1,1 +1,51 @@
-@use '../../utils/' as *;
+@use "../../utils/" as *;
+.akfooter {
+  &-dvir {
+    height: 1px;
+    width: 384px;
+    background-color: rgb(86, 86, 86);
+    display: inline-block;
+    transform: translateY(-190%);
+  }
+  &-social {
+    & a {
+      background-color: #f6f6f6;
+      margin: 0 6px;
+      display: inline-block;
+      width: 36px;
+      height: 36px;
+      line-height: 2;
+      border-radius: 7px;
+
+      & svg {
+      }
+    }
+  }
+  &-widget {
+    &-contact {
+      &-box {
+        & a {
+          color: rgba(197, 197, 197, 1);
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+  &-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(246, 246, 246, 1);
+    margin-bottom: 20px;
+  }
+  &-menu {
+    & ul {
+      & li {
+        list-style: none;
+        margin-bottom: 20px;
+        & a {
+          color: rgba(197, 197, 197, 1);
+        }
+      }
+    }
+  }
+}

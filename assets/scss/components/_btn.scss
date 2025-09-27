@@ -1,1 +1,9 @@
-@use '../utils/' as *;
+@use "../utils/" as *;
+.akbtn {
+  &-arrow {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(197, 197, 197, 1);
+    text-decoration: underline;
+  }
+}

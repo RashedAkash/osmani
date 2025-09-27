@@ -1,0 +1,20 @@
+@use "../../utils/" as *;
+.aknewsletter {
+  &-box {
+    padding: 35px 60px;
+  }
+  &-input {
+    background-color: rgba(222, 222, 230, 1) !important;
+    border-radius: 90px !important;
+    padding: 6px 6px 6px 24px;
+    color: rgba(111, 111, 111, 1);
+  }
+  &-btn {
+    padding: 10px 20px;
+    color: rgb(22, 54, 73);
+    position: absolute;
+    right: 6px;
+    z-index: 99;
+    top: 3px;
+  }
+}

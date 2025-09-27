@@ -6,6 +6,16 @@
   }
 }
 @for $i from 1 through 150 {
+  .mr-#{$i} {
+    margin-right: #{$i}px;
+  }
+}
+@for $i from 1 through 150 {
+  .ml-#{$i} {
+    margin-left: #{$i}px;
+  }
+}
+@for $i from 1 through 150 {
   .pb-#{$i} {
     padding-bottom: #{$i}px;
   }
@@ -13,5 +23,10 @@
 @for $i from 1 through 150 {
   .pt-#{$i} {
     padding-top: #{$i}px;
+  }
+}
+@for $i from 1 through 150 {
+  .pl-#{$i} {
+    padding-left: #{$i}px;
   }
 }
